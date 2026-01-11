@@ -50,6 +50,7 @@ const WhyChooseUs = () => {
           src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
           alt="Technical Services"
           className="w-full h-full object-cover grayscale"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-black/80" />
       </div>

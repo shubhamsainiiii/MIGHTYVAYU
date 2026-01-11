@@ -21,8 +21,15 @@ const Hero = () => {
         <div className="absolute inset-0 bg-linear-to-b from-dark/80 via-dark/60 to-dark z-10" />
         <img
           src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+          srcSet="
+            https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=640 640w,
+            https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200 1200w,
+            https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80 1920w
+          "
+          sizes="100vw"
           alt="Technical Services Background"
           className="w-full h-full object-cover"
+          fetchPriority="high"
         />
       </div>
 

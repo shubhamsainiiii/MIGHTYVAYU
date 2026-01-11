@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import WhyChooseUs from './components/WhyChooseUs';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
+
+const About = lazy(() => import('./components/About'));
+const Services = lazy(() => import('./components/Services'));
+const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
+const ContactUs = lazy(() => import('./components/ContactUs'));
+const Footer = lazy(() => import('./components/Footer'));
 
 function App() {
   return (
@@ -13,12 +14,16 @@ function App() {
       <Header />
       <main className="pt-24 md:pt-26">
         <Hero />
-        <About />
-        <Services />
-        <WhyChooseUs />
-        <ContactUs />
+        <Suspense fallback={<div className="py-20 text-center">Loading...</div>}>
+          <About />
+          <Services />
+          <WhyChooseUs />
+          <ContactUs />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }

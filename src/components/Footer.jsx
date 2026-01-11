@@ -46,6 +46,7 @@ const Footer = () => {
                 src={logo}
                 alt="MIGHTYVAYU Logo"
                 className="h-10 w-auto object-contain"
+                loading="lazy"
               />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-white leading-none">
