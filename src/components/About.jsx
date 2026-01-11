@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-dark relative overflow-hidden scroll-mt-28"
+      className="py-1 bg-dark relative overflow-hidden scroll-mt-28"
     >
       <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-primary/5 to-transparent pointer-events-none" />
 
@@ -36,16 +36,24 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="aspect-square rounded-2xl overflow-hidden border-4 border-dark-lighter shadow-2xl rotate-3 hover:rotate-0 transition-all">
+            <div className="group aspect-square rounded-2xl overflow-hidden border-4 border-dark-lighter shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500">
               <LazyLoadImage
                 effect="blur"
-                wrapperProps={{ style: { transitionDelay: "1s" } }}
+                wrapperProps={{
+                  className: "w-full h-full",
+                  style: { transitionDelay: "1s" },
+                }}
                 src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
                 alt="Technical Team"
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+                className="
+        w-full h-full object-cover
+        transition-transform duration-700 ease-out
+        group-hover:scale-110
+      "
               />
             </div>
           </motion.div>
+
 
           {/* RIGHT CONTENT */}
           <div className="space-y-8">
