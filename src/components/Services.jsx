@@ -8,27 +8,27 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const services = [
   {
     id: 1,
-    title: "Technical Maintenance",
+    title: "Custom Exhibition Stands",
     description:
-      "Comprehensive maintenance solutions for HVAC, electrical, and plumbing systems. We ensure your facilities run smoothly with our preventive and reactive maintenance services.",
+      "At MIGHTYVAYU Technical Services, we deliver end-to-end corporate stand solutions, ensuring flawless execution from concept to completion. Our expertise in custom stand design & build allows us to transform your brand vision into impactful, audience engaging exhibits—whether for prototypes or on-site construction. Beyond stand fabrication, we offer full-scale exhibition management, including scenography, venue coordination, and turnkey project delivery. Supported by trusted partnerships and in-house production, we guarantee on-time, onbudget results without compromising quality or creativity. Your success starts with a stand that speaks louder than words—let's build it together.",
     image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80",
   },
   {
     id: 2,
-    title: "Interior Fit-Outs",
+    title: "Events",
     description:
-      "Transforming spaces with high-quality interior fit-out services for offices, retail, and residential properties. From concept to completion, we handle all aspects of the build.",
+      "At MIGHTYVAYU, we are passionate about creating impactful and memorable corporate events. Our innovative approach and attention to detail ensure that every event we design and execute leaves a lasting impression. Whether you're hosting a corporate gala, a product launch, or a team-building workshop, we work closely with clients to understand their objectives and create custom-tailored experiences that resonate with attendees. From concept development to execution, MIGHTYVAYU handles every aspect of your event with precision and professionalism, ensuring that it exceeds expectations. Trust us to make your corporate event a resounding success.",
     image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80",
   },
   {
     id: 3,
-    title: "Exhibition & Event Support",
+    title: "Interior/Exterior",
     description:
-      "Providing technical support and setup for exhibitions and events. We handle the technical infrastructure to ensure your event is a success.",
+      "At MIGHTYVAYU, we are your trusted partner in creating exceptional interior environments. We specialize in delivering bespoke fit-out solutions that enhance the functionality, aesthetics, and overall ambiance of your space. Whether you're transforming a retail showroom, corporate workspace, or hospitality establishment, we collaborate closely with you to understand your unique vision and devise tailored strategies that align with your aspirations and goals. From initial concept to final implementation, MIGHTYVAYU ensures a seamless execution of your interior fit-out project, delivering results that exceed your expectations and contribute to the success of your business.",
     image:
-      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80",
   },
 ];
 

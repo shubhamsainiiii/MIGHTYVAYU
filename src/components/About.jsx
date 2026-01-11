@@ -4,6 +4,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import aboutImg from '../assets/images/about.png';
 
 const About = () => {
   return (
@@ -43,7 +44,8 @@ const About = () => {
                   className: "w-full h-full",
                   style: { transitionDelay: "1s" },
                 }}
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+                // src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+                src={aboutImg}
                 alt="Technical Team"
                 className="
         w-full h-full object-cover
@@ -65,12 +67,10 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <h3 className="text-2xl font-bold mb-4 text-white">
-                MIGHTYVAYU TECHNICAL SERVICES L.L.C
+                ABOUT MIGHTYVAYU
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                MIGHTYVAYU is a premier technical services provider in Dubai,
-                delivering reliable maintenance, interior fit-out, and complete
-                technical solutions with precision, safety, and long-term value.
+                MightyVayu Technical Services is a full-service agency specializing in innovative design and build solutions for exceptional results. We operate across trade shows, events of all sizes, conferences, and retail architecture, offering expertise in both temporary and permanent indoor/outdoor structures. Every project is meticulously crafted to meet your exact requirements while ensuring cost efficiency.
               </p>
             </motion.div>
 
@@ -86,9 +86,7 @@ const About = () => {
                 Our Mission
               </h3>
               <p className="text-gray-400">
-                To provide innovative, cost-effective, and high-quality
-                technical services that exceed client expectations while
-                maintaining the highest standards of safety and professionalism.
+                To craft bespoke design and build solutions that surpass client expectations, combining creativity, expertise, and precision to deliver exceptional results, drive success, and create lasting impressions.
               </p>
             </motion.div>
 

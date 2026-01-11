@@ -4,9 +4,13 @@ import Hero from './components/Hero';
 
 const About = lazy(() => import('./components/About'));
 const Services = lazy(() => import('./components/Services'));
+const Clients = lazy(() => import('./components/Clients'));
 const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
 const ContactUs = lazy(() => import('./components/ContactUs'));
 const Footer = lazy(() => import('./components/Footer'));
+const Projects = lazy(() => import('./components/Projects'));
+
+
 
 function App() {
   return (
@@ -17,6 +21,8 @@ function App() {
         <Suspense fallback={<div className="py-20 text-center">Loading...</div>}>
           <About />
           <Services />
+          <Projects />
+          <Clients />
           <WhyChooseUs />
           <ContactUs />
         </Suspense>
