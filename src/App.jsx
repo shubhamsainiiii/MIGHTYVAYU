@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="bg-black min-h-screen text-white">
       <Header />
-      <main>
+      <main className="pt-24 md:pt-26">
         <Hero />
         <About />
         <Services />
