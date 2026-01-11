@@ -40,9 +40,18 @@ const ContactUs = () => {
       "https://api.whatsapp.com/send?phone=971559281564&text=" +
       encodeURIComponent(whatsappMessage);
 
-    // 🔥 THIS ALWAYS WORKS
+    // ✅ WhatsApp open
     window.location.href = url;
+
+    // ✅ FORM CLEAR
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
   };
+
 
 
   return (
