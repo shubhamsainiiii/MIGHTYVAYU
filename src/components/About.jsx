@@ -70,7 +70,7 @@ const About = () => {
                 ABOUT MIGHTYVAYU
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                MightyVayu Technical Services is a full-service agency specializing in innovative design and build solutions for exceptional results. We operate across trade shows, events of all sizes, conferences, and retail architecture, offering expertise in both temporary and permanent indoor/outdoor structures. Every project is meticulously crafted to meet your exact requirements while ensuring cost efficiency.
+                MightyVayu Technical Services LLC is a full-service agency specializing in innovative design and build solutions for exceptional results. We operate across trade shows, events of all sizes, conferences, and retail architecture, offering expertise in both temporary and permanent indoor/outdoor structures. Every project is meticulously crafted to meet your exact requirements while ensuring cost efficiency.
               </p>
             </motion.div>
 

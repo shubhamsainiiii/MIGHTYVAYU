@@ -10,7 +10,7 @@ const services = [
     id: 1,
     title: "Custom Exhibition Stands",
     description:
-      "At MIGHTYVAYU Technical Services, we deliver end-to-end corporate stand solutions, ensuring flawless execution from concept to completion. Our expertise in custom stand design & build allows us to transform your brand vision into impactful, audience engaging exhibits—whether for prototypes or on-site construction. Beyond stand fabrication, we offer full-scale exhibition management, including scenography, venue coordination, and turnkey project delivery. Supported by trusted partnerships and in-house production, we guarantee on-time, onbudget results without compromising quality or creativity. Your success starts with a stand that speaks louder than words—let's build it together.",
+      "At MIGHTYVAYU Technical Services LLC, we deliver end-to-end corporate stand solutions, ensuring flawless execution from concept to completion. Our expertise in custom stand design & build allows us to transform your brand vision into impactful, audience engaging exhibits—whether for prototypes or on-site construction. Beyond stand fabrication, we offer full-scale exhibition management, including scenography, venue coordination, and turnkey project delivery. Supported by trusted partnerships and in-house production, we guarantee on-time, onbudget results without compromising quality or creativity. Your success starts with a stand that speaks louder than words—let's build it together.",
     image:
       "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80",
   },
