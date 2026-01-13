@@ -20,13 +20,15 @@ const Footer = () => {
 
   /* ===== EXTERNAL ACTIONS ===== */
   const openEmail = () => {
-    window.location.href = "mailto:info@mts.ae";
+    window.location.href = "mailto:info@mtsexb.com";
+  };
+  const openEmail2 = () => {
+    window.location.href = "mailto:sachin@mtsexb.com";
   };
 
   const callPhone = () => {
     window.location.href = "tel:+971559281564";
   };
-
   const openSocial = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
@@ -113,13 +115,21 @@ const Footer = () => {
             </h4>
             <ul className="space-y-4">
               <li className="flex gap-3 text-gray-400">
-                <Mail className="w-5 h-5 text-primary shrink-0" />
-                <button
-                  onClick={openEmail}
-                  className="hover:text-primary transition-all duration-500 cursor-pointer"
-                >
-                  info@mts.ae
-                </button>
+                <Mail className="w-5 h-5 text-primary shrink-0 mt-1" />
+                <div className="flex flex-col items-start gap-1">
+                  <button
+                    onClick={openEmail}
+                    className="hover:text-primary transition-all duration-500 cursor-pointer"
+                  >
+                    info@mtsexb.com
+                  </button>
+                  <button
+                    onClick={openEmail2}
+                    className="hover:text-primary transition-all duration-500 cursor-pointer"
+                  >
+                    sachin@mtsexb.com
+                  </button>
+                </div>
               </li>
 
               <li className="flex gap-3 text-gray-400">
@@ -144,7 +154,7 @@ const Footer = () => {
 
         {/* ===== COPYRIGHT ===== */}
         <div className="border-t border-gray-800 pt-3 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} MIGHTYVAYU TECHNICAL SERVICES. All rights
+          © {new Date().getFullYear()} MIGHTYVAYU TECHNICAL SERVICES LLC. All rights
           reserved.
         </div>
       </div>

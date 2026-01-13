@@ -103,10 +103,10 @@ const About = () => {
 
               <ul className="space-y-3">
                 {[
-                  "Experienced and certified technical professionals",
-                  "Timely project delivery with transparent communication",
-                  "End-to-end solutions from planning to execution",
-                  "Commitment to safety, quality, and compliance",
+                  "Expert team for world-class event & exhibition setups",
+                  "Flawless on-time delivery for every show",
+                  "Creative, custom-designed stalls that stand out",
+                  "Comprehensive end-to-end event management",
                 ].map((item, idx) => (
                   <li
                     key={idx}

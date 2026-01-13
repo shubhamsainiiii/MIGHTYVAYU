@@ -11,7 +11,10 @@ const ContactUs = () => {
   });
 
   const openEmail = () => {
-    window.location.href = "mailto:info@mts.ae";
+    window.location.href = "mailto:info@mtsexb.com";
+  };
+  const openEmail2 = () => {
+    window.location.href = "mailto:sachin@mtsexb.com";
   };
 
   const callPhone = () => {
@@ -82,20 +85,28 @@ const ContactUs = () => {
             <p className="text-xl text-gray-300 mb-8">
               Fill the form to get in touch with MIGHTYVAYU experts or email us at{" "}
               <span className="text-primary font-semibold">
-                info@mts.ae
+                info@mtsexb.com
               </span>
             </p>
 
             <div className="space-y-4 text-gray-400">
-              <p>
-                <strong>Email:</strong>{" "}
-                <button
-                  onClick={openEmail}
-                  className="hover:text-primary cursor-pointer transition-all duration-500"
-                >
-                  info@mts.ae
-                </button>
-              </p>
+              <div className="flex gap-2">
+                <strong className="shrink-0">Email:</strong>
+                <div className="flex flex-col items-start">
+                  <button
+                    onClick={openEmail}
+                    className="hover:text-primary cursor-pointer transition-all duration-500"
+                  >
+                    info@mtsexb.com
+                  </button>
+                  <button
+                    onClick={openEmail2}
+                    className="hover:text-primary cursor-pointer transition-all duration-500"
+                  >
+                    sachin@mtsexb.com
+                  </button>
+                </div>
+              </div>
 
               <p>
                 <strong>Phone:</strong>{" "}

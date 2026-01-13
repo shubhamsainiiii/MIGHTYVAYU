@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 
 const About = lazy(() => import('./components/About'));
 const Services = lazy(() => import('./components/Services'));
-const Clients = lazy(() => import('./components/Clients'));
 const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
 const ContactUs = lazy(() => import('./components/ContactUs'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -22,7 +21,6 @@ function App() {
           <About />
           <Services />
           <Projects />
-          <Clients />
           <WhyChooseUs />
           <ContactUs />
         </Suspense>

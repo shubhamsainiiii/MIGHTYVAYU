@@ -18,16 +18,16 @@ const Hero = () => {
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-linear-to-b from-dark/80 via-dark/60 to-dark z-10" />
+        <div className="absolute inset-0 bg-linear-to-b from-dark/90 via-dark/70 to-dark z-10" />
         <img
-          src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80"
+          src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80"
           srcSet="
-            https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80&w=640 640w,
-            https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80&w=1200 1200w,
-            https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80 1920w
+            https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=640 640w,
+            https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=1200 1200w,
+            https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80 1920w
           "
           sizes="100vw"
-          alt="Technical Services Background"
+          alt="Exhibitions and Events Background"
           className="w-full h-full object-cover"
           fetchPriority="high"
         />
@@ -41,7 +41,7 @@ const Hero = () => {
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
         >
           <span className="text-white">MIGHTYVAYU</span> <br />
-          <span className="text-primary">TECHNICAL SERVICES</span>
+          <span className="text-[var(--color-primary)]">TECHNICAL SERVICES LLC</span>
         </motion.h1>
 
         <motion.p
@@ -50,8 +50,8 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Your premier partner for innovative technical solutions, interior
-          fit-outs, and maintenance services in Dubai.
+          Your expert partner for world-class Exhibitions, Events Management,
+          and Technical Fit-out services in Dubai.
         </motion.p>
 
         <motion.div

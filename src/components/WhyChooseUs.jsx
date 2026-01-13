@@ -6,23 +6,23 @@ import { CheckCircle } from "lucide-react";
 const points = [
   {
     title: "Innovative Designs",
-    desc: "We create unique, eye-catching exhibition stands tailored to reflect your brand identity.",
+    desc: "We create unique, eye-catching stands tailored to your brand identity.",
   },
   {
     title: "Expert Project Management",
-    desc: "Our team ensures seamless execution and coordination from concept to completion.",
+    desc: "Our team ensures smooth execution from concept to completion.",
   },
   {
-    title: "Strategic Brand Engagement",
-    desc: "Every stand is designed with visitor engagement and marketing strategy in mind.",
+    title: "Comprehensive Marketing Planning",
+    desc: "Our stands are designed with brand engagement and marketing strategy in mind.",
   },
   {
     title: "Cost-Effective Solutions",
-    desc: "Flexible custom-built and rental options that align perfectly with your budget.",
+    desc: "Custom and rental options to fit your budget.",
   },
   {
     title: "End-to-End Support",
-    desc: "From design and fabrication to installation, we provide complete service solutions.",
+    desc: "From design to installation, we provide full service solutions.",
   },
 ];
 
@@ -35,12 +35,12 @@ const WhyChooseUs = () => {
       {/* Background Image Overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80"
-          alt="Exhibition Stand"
-          className="w-full h-full object-cover opacity-50"
+          src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80"
+          alt="Events and Exhibition Setup"
+          className="w-full h-full object-cover opacity-80"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
